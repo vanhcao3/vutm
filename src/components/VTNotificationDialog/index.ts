@@ -1,0 +1,1 @@
+export { VTNotificationDialog as default } from './VTNotificationDialog'

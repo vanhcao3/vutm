@@ -1,0 +1,61 @@
+.icon {
+     height: 28px;
+     width: 28px;
+
+     &-add {
+          background: url("../../../images/icons/Actions/add.svg");
+     }
+
+     &-searchActions {
+          background: url("../../../images/icons/Actions/search.svg");
+     }
+
+     &-delete {
+          background: url("../../../images/icons/Actions/delete.svg");
+     }
+
+     &-view {
+          background: url("../../../images/icons/Actions/view.svg");
+     }
+
+     &-edit {
+          background: url("../../../images/icons/Actions/edit.png") center;
+          background-size: 80%;
+     }
+}
+
+.btn {
+     padding: 0;
+     display: inline-flex;
+     margin-left: 12px;
+     height: 30px;
+
+     &-accept {
+          background: $cl_14 !important;
+     }
+
+     &-cancel {
+          background: $cl_popper_bg !important;
+          border: 1px $cl_brown_border solid;
+     }
+
+     &-default {
+          background: $cl_8;
+
+          &:hover {
+               background: $cl_14;
+          }
+
+          &:disabled {
+               &:hover {
+                    background: $cl_8;
+               }
+          }
+     }
+
+     &-disable,
+     &:disabled {
+          opacity: 0.6;
+          cursor: not-allowed;
+     }
+}

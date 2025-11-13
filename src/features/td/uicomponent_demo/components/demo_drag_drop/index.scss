@@ -1,0 +1,70 @@
+.demo-dnd {
+    width: 100%;
+    height: 100%;
+
+    .column {
+        height: 50px;
+        width: 700px;
+        margin: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        align-items: center;
+        padding: 0 5px;
+
+        .movable-item {
+            height: 40px;
+            width: 40px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            background-color: #fff3f3;
+            border: 1px solid black;
+            margin-right: 5px;
+            align-items: center;
+        }
+    }
+
+    .drag-drop-swap {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        .column-swap{
+            height: 100px;
+            width: 700px;
+            margin: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+
+            .items-swap {
+                height: 80px;
+                width: 96px;
+                margin: 10px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                background-color: #fff3f3;
+                border: 1px solid black;
+            }
+        }
+    }
+
+    .item-drag-around {
+        border: 1px solid black;
+        background-color: white;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .container-drop{
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+}

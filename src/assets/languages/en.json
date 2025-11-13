@@ -1,0 +1,24 @@
+{
+    "test": {
+        "hello": "Hello"
+    },
+    "go_home": "Go Home",
+    "username_required": "Username Required",
+    "password_required": "Password Required",
+    "Draw.Polyline": "Draw Polyline",
+    "Draw.Polygon": "Draw Polygon",
+    "Draw.Circle": "Draw Circle",
+    "Draw.Point": "Draw Point",
+    "Draw.Edit": "Edit Features",
+    "Draw.mode": "Draw Mode",
+    "Lat": "Lat",
+    "Lng": "Lng",
+    "Zoom.Step": "Zoom Step",
+    "LAYER_BIEN_GIOI" : "Border",
+    "LAYER_DUONG_THUY": "Waterway",
+    "LAYER_HANH_CHINH_XA": "Commune",
+    "LAYER_HANH_CHINH_HUYEN": "District",
+    "LAYER_HANH_CHINH_TINH": "City",
+    "LAYER_DUONG_BO": "Main road",
+    "LAYER_DAO_LINE": "Island"
+}

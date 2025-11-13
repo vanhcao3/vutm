@@ -1,0 +1,21 @@
+.TableActions {
+     text-align: right;
+
+     .MuiSvgIcon-root {
+          padding: 0.1em;
+     }
+}
+
+.table-action-element {
+     position: absolute;
+     top: 5px;
+     right: 10px;
+}
+
+.mapboxgl-ctrl-logo {
+     display: none !important;
+}
+
+.cesium-viewer-bottom {
+     display: none !important;
+}

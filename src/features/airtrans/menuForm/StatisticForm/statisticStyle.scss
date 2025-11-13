@@ -1,0 +1,46 @@
+.statistic-style {
+     width: 780px;
+     height: 300px;
+     overflow-y: auto;
+     display: flex;
+     flex-direction: column;
+     right: 0px;
+     border-radius: 5px;
+     top: calc(50% - 400px);
+     z-index: 10;
+     position: absolute;
+     background-color: #363636;
+     padding: 10px;
+     gap: 20px;
+     font-size: 15px;
+     opacity: 0.85;
+
+     &::-webkit-scrollbar {
+          width: 10px;
+          height: 10px;
+     }
+
+     &::-webkit-scrollbar-track {
+          background: #ccc;
+          border-radius: 10px;
+     }
+
+     &::-webkit-scrollbar-thumb {
+          background: #888;
+          border-radius: 10px;
+     }
+
+     &::-webkit-scrollbar-thumb:hover {
+          background: #555;
+     }
+
+     table,
+     th,
+     td {
+          border: 1px solid #ccc;
+     }
+
+     td {
+          padding: 3px;
+     }
+}

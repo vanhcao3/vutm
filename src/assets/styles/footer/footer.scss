@@ -1,0 +1,28 @@
+$font_size_footer: 14px;
+$cl_text_white: #ffffff;
+
+.Footer {
+     display: flex;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     z-index: 1;
+     background-color: #3e545b;
+     height: 3em;
+}
+
+.FooterMouseCoordinate {
+     &__container {
+          position: absolute;
+          bottom: 10px;
+          z-index: 1;
+          padding: 3px 3px;
+     }
+
+     &__info {
+          display: flex;
+          flex-direction: row;
+          font-size: $font_size_footer;
+     }
+}

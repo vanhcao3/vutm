@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./custom.scss";
+
+@font-face {
+     font-family: "Inter";
+     src: url(../../fonts/Inter/Inter-Regular.woff) format("woff");
+}
+
+@font-face {
+     font-family: "Inter";
+     font-weight: 600;
+     src: url(../../fonts/Inter/Inter-Bold.woff) format("woff");
+}
+
+
+body {
+     margin: 0;
+     font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", "Roboto", "Oxygen",
+          "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.error-message {
+     color: #bf1650;
+}
+
+.error-message::before {
+     display: inline;
+     content: "⚠ ";
+}

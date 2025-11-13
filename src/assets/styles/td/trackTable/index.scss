@@ -1,0 +1,14 @@
+.max-height-table > div:first-child > div:first-child > div {
+     max-height: 89vh !important;
+}
+
+.max-height-table {
+     margin-top: 15px;
+}
+
+.track-table {
+     top: 2%;
+     .default-input-search-table {
+          width: calc(95% - 30px);
+     }
+}

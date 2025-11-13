@@ -1,0 +1,18 @@
+.receive-command-list-table {
+     table {
+          width: 100%;
+          table-layout: fixed;
+          border-collapse: collapse;
+          &tr,
+          th,
+          td {
+               border: 1px solid #ccc;
+               min-height: 55px;
+          }
+
+          &th,
+          td {
+               padding: 7px;
+          }
+     }
+}

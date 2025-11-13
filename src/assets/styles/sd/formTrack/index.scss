@@ -1,0 +1,188 @@
+// variable css
+$size-header: 2rem;
+
+$cl_container_collapsible: rgba(37, 39, 41, 0.35);
+$cl_bg_scroll: #565656;
+$cl_scroll: #333;
+$cl_container: #404040;
+$cl_header: #171717;
+
+.interactiveForm {
+     width: 400px;
+     opacity: 0.87 !important;
+     .NuiInteractiveForm-container {
+          background-color: $cl_container !important;
+     }
+     top: 6% !important;
+     .nui-title-text {
+          margin: 0;
+          font-size: 1rem;
+          color: #fff;
+     }
+     .container-content {
+          padding: 3px;
+          width: 100%;
+          margin: 2px auto;
+     }
+     .header-collapsible {
+          background-color: #111c33;
+          padding: 2px 16px !important;
+          border: none !important;
+     }
+     .NuiFormInput__label {
+          color: #fff;
+          width: 40% !important;
+     }
+     .NuiFormInput__container {
+          height: 22px;
+          font-size: 1rem;
+          height: 50%;
+          padding: 0 0 0 14px !important;
+     }
+     .NuiFormInput__content {
+          > input {
+               font-size: 14px;
+               padding-left: 10px;
+               height: 24px;
+          }
+     }
+     .container-collapsible {
+          padding: 3px;
+     }
+     .nui-collapsible-content {
+          border: none !important;
+     }
+     .info {
+          overflow: auto !important;
+          max-height: 200px;
+     }
+     .NuiFormInput__container {
+          width: 100%;
+     }
+     .NuiFormInput__content {
+          width: 50% !important;
+          & > div > div {
+               display: flex;
+          }
+     }
+     .wrap-button {
+          float: right;
+          padding-right: 3px;
+          padding-top: 7px;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          position: relative;
+     }
+     .button {
+          color: #fff;
+          display: inline-block;
+          border-radius: 4px;
+          height: 28px;
+          width: 100px;
+          padding: 0 15px;
+          &:hover {
+               opacity: 0.85;
+          }
+          &-edit {
+               background-color: #8c5c41;
+               margin-right: 15px;
+          }
+          &-delete {
+               margin-left: 15px;
+               background-color: #252729;
+               margin-right: 6px;
+          }
+          &-absolute {
+               position: absolute;
+               right: 0;
+          }
+     }
+     .NuiHeaderInteractiveForm__base-flag {
+          width: 100px;
+     }
+     .NuiInteractiveForm-container {
+          width: 440px !important;
+     }
+     .mt0 {
+          font-weight: bold;
+     }
+     .NuiHeaderInteractiveForm__base-container-title {
+          font-weight: bold;
+          font-size: $size-header;
+     }
+     .container-collapsible {
+          background-color: $cl_container_collapsible;
+          width: 100%;
+          margin: 2px auto;
+     }
+     ::-webkit-scrollbar {
+          width: 6px;
+     }
+     ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          background-color: $cl_bg_scroll;
+     }
+     ::-webkit-scrollbar-thumb {
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          border-radius: 9px;
+          background-color: $cl_scroll;
+     }
+     #country {
+          outline: none;
+     }
+     .history-time {
+          display: flex;
+          justify-content: space-between;
+          .PopperTabAISItem-container {
+               text-align: center;
+               .PopperTabAISItem-name {
+                    padding: 5px 7.5px;
+                    color: #fff;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    background-color: #7a7b7c;
+                    border: 1px solid rgba(102, 101, 101, 0.75);
+                    border-radius: 4px;
+                    width: 75px;
+                    height: 27px;
+                    line-height: normal;
+               }
+               .active {
+                    background-color: #a74009 !important;
+               }
+          }
+     }
+}
+
+.FormTrack {
+     max-height: 70vh;
+     overflow: auto;
+     max-width: 450px;
+     .NuiInteractiveForm-content {
+          max-height: 90vh;
+          overflow: auto;
+     }
+     .NuiFormInput__container .NuiFormInput__content {
+          width: 60% !important;
+          & > div {
+               width: 100%;
+          }
+     }
+     .NuiFormInput__emessage {
+          font-size: 15px;
+          left: 42%;
+          width: 60%;
+     }
+
+     .icon-expand {
+          color: #fff;
+     }
+
+     input::-webkit-outer-spin-button,
+     input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+     }
+}

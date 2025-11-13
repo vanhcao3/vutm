@@ -1,0 +1,14 @@
+export const VALIDATE_NUMBER = 'number';
+export const VALIDATE_MAX = 'max';
+export const VALIDATE_BETWEEN = 'between';
+export const VALIDATE_BETWEEN_NUMBER = 'between_number';
+export const VALIDATE_REQUIRED = 'required';
+export const VALIDATE_MIN = 'min';
+export const VALIDATE_DECIMAL = 'decimal';
+export const VALIDATE_IN = 'in';
+export const VALIDATE_COORDINATE = 'coordinate';
+export const VALIDATE_LESS = 'less';
+export const VALIDATE_GREATER = 'greater';
+export const VALIDATE_CHECK_HOUR = 'hour';
+export const VALIDATE_STRING = 'string';
+export const VALIDATE_IP = 'ip';

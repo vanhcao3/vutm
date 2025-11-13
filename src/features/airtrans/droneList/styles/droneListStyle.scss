@@ -1,0 +1,60 @@
+.filter-zone {
+     height: 100px;
+     width: 100%;
+     background-color: rgb(49, 48, 48);
+     margin-bottom: 20px;
+     display: flex;
+     flex-direction: row;
+     padding: 20px;
+     border-radius: 4px;
+     border: 1px solid black;
+
+     .filter-field {
+          display: flex;
+          flex-direction: row;
+          width: 30%;
+          height: 30%;
+          align-items: center;
+
+          .filter-label {
+               width: 40%;
+          }
+
+          .filter-input {
+               width: 60%;
+               outline: none;
+               background-color: rgb(49, 48, 48);
+               border: 1px solid #ccc;
+               border-radius: 4px;
+               padding: 5px;
+               &:focus {
+                    border: 1px solid #ccc;
+               }
+          }
+     }
+}
+
+.drone-list-table {
+     table {
+          width: 100%;
+          table-layout: fixed;
+          border-collapse: collapse;
+
+          tr {
+               &:hover {
+                    background-color: #3f3f3f;
+               }
+          }
+          & tr,
+          th,
+          td {
+               border: 1px solid black;
+               min-height: 55px;
+          }
+
+          &th,
+          td {
+               padding: 7px;
+          }
+     }
+}

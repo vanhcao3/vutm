@@ -1,0 +1,151 @@
+.drone-form {
+     width: 250px;
+     height: 500px;
+     background-color: #121212;
+     border: 1px solid #ccc;
+     position: absolute;
+     top: 400px;
+     left: 1550px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding: 10px;
+     z-index: 99;
+     font-size: 12px;
+
+     .drone-field {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          flex-direction: row;
+
+          .drone-data-source {
+               border: 1px solid black;
+               padding: 7px 5px;
+               min-width: 70px;
+               text-align: center;
+
+               &:hover {
+                    background-color: #a16e23;
+                    cursor: pointer;
+               }
+          }
+
+          .drone-label {
+               width: 40%;
+               padding: 5px;
+          }
+
+          .drone-value {
+               width: 60%;
+
+               padding: 5px;
+               border: 1px solid black;
+          }
+     }
+     .stream-btn {
+          padding: 10px 14px;
+          border: none;
+          border-radius: 10px;
+          background: linear-gradient(135deg, #3b82f6, #2563eb);
+          color: #fff;
+          font-weight: 700;
+          font-size: 14px;
+          cursor: pointer;
+          transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+     }
+     .stream-btn:hover {
+          transform: translateY(-1px);
+          box-shadow: 0 8px 18px rgb(37, 99, 235, 0.35);
+          filter: brightness(1.05);
+     }
+
+     .stream-btn:active {
+          transform: translateY(0);
+          box-shadow: none;
+     }
+}
+
+.filter-toolbar {
+     margin-left: 10px;
+     margin-top: 20px;
+     width: 40px;
+     height: 40px;
+     display: flex;
+     flex-direction: column;
+     z-index: 10;
+     position: absolute;
+     background-color: #121212;
+     border-radius: 10px;
+     align-items: center;
+     &:hover {
+          cursor: pointer;
+          background-color: #838181;
+     }
+
+     gap: 15px;
+     opacity: 0.7;
+
+     .filter-item {
+          cursor: pointer;
+          position: relative;
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          &:hover {
+               background-color: #474747;
+               border-radius: 5px;
+
+               & > .dropdown-content {
+                    display: block;
+               }
+          }
+
+          .dropdown-content {
+               display: none;
+               position: absolute;
+               width: 100px;
+               height: 60px;
+               z-index: 10;
+               left: calc(100% + 15px);
+               top: 0;
+          }
+     }
+}
+
+.drone-toolbar {
+     width: 380px;
+     height: 60px;
+     display: flex;
+     flex-direction: row;
+     position: absolute;
+     z-index: 10;
+     top: 93%;
+     background-color: #121212;
+     left: calc(50% - 180px);
+     // left: 48%;
+     border-radius: 14px;
+     opacity: 0.8;
+     align-items: center;
+     padding: 10px;
+     justify-content: space-between;
+     gap: 15px;
+     .toolbar-item {
+          display: flex;
+          min-width: 70px;
+          flex-direction: column;
+          align-items: center;
+          &:hover {
+               background-color: #797979;
+               cursor: pointer;
+               border-radius: 8px;
+          }
+          > button {
+               padding: 0;
+               border-radius: 0;
+          }
+          // &-label {
+
+          // }
+     }
+}

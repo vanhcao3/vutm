@@ -1,0 +1,59 @@
+.treeGraph {
+    width: 100%;
+    height: 700px;
+    color: white;
+
+    .textName {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        width: 110px;
+        height: 30px;
+        border-radius: 5px;
+        font-weight: bold;
+        padding-top: 5px;
+        font-size: 0.8rem;
+        background: rgb(35, 74, 90);
+        text-align: center;
+    }
+
+    .blink-bg {
+        animation: blinkBg 5s linear;
+    }
+    
+    @keyframes blinkBg {
+        0% {background-color: #10c018;}
+        25% {background-color: #dd2531;}
+        50% {background-color: #10c018;}
+        75% {background-color: #dd2531;}
+        100% {background-color: #10c018;}
+    }
+
+    .image {
+        img {
+            margin-top: 5px;
+            width: 130px;
+            height: 50px;
+        }
+    }
+
+    .rd3t-link {
+        stroke: yellow;
+        cursor: pointer;
+        stroke-width: 2;
+    }
+
+    .connect {
+        stroke: green;
+    }
+
+    .disconnect {
+        stroke: red;
+        stroke-dasharray: 5;
+    }
+
+    .unknown {
+        stroke: yellow;
+        stroke-dasharray: 5;
+    }
+}

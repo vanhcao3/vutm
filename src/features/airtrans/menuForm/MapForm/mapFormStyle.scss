@@ -1,0 +1,48 @@
+.map-settings {
+     width: 250px;
+     height: 800px;
+     overflow-y: auto;
+     display: flex;
+     flex-direction: column;
+     right: 0px;
+     border-radius: 5px;
+     top: calc(50% - 400px);
+     z-index: 10;
+     position: absolute;
+     background-color: #363636;
+     padding: 20px;
+     gap: 20px;
+     &::-webkit-scrollbar {
+          width: 10px;
+          height: 10px;
+     }
+
+     &::-webkit-scrollbar-track {
+          background: #ccc;
+          border-radius: 10px;
+     }
+
+     &::-webkit-scrollbar-thumb {
+          background: #888;
+          border-radius: 10px;
+     }
+
+     &::-webkit-scrollbar-thumb:hover {
+          background: #555;
+     }
+     .map-item-setting {
+          display: flex;
+
+          flex-direction: column;
+          gap: 5px;
+          padding: 5px;
+          > img {
+               width: 100px;
+               height: 100px;
+               &:hover {
+                    cursor: pointer;
+                    border: 5px solid rgb(163, 163, 163) !important;
+               }
+          }
+     }
+}

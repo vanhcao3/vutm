@@ -1,0 +1,1 @@
+export { VTAutocomplete2 as default } from "./VTAutocomplete2"
