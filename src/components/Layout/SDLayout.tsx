@@ -1,11 +1,13 @@
 import React from 'react';
 
+import { useFlightEventNotifications } from '@/hooks/useFlightEventNotifications';
 import { Head } from '../Head';
 type SDLayoutProps = {
   children: React.ReactNode;
   title: string;
 };
 export const SDLayout = ({ children, title }: SDLayoutProps) => {
+  useFlightEventNotifications();
   return (
     <>
       <Head title={title} />
