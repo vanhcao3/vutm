@@ -1,0 +1,12 @@
+stages:
+     - package
+
+image-pack:
+     stage: package
+     tags:
+          - deployer
+     variables:
+          GIT_SUBMODULE_STRATEGY: recursive
+     script:
+          - make docker-push
+     when: always
